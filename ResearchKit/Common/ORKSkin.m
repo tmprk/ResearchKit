@@ -70,7 +70,7 @@ CGFloat ORKStepContainerLeftRightMarginForXSMax = 22.0;
 CGFloat ORKStepContainerLeftRightMarginForXS = 12.0;
 CGFloat ORKStepContainerLeftRightMarginFor7Plus = 22.0;
 CGFloat ORKStepContainerLeftRightMarginFor7 = 12.0;
-CGFloat ORKStepContainerLeftRightMarginForSE = 8.0;
+CGFloat ORKStepContainerLeftRightMarginForSE = 12.0;
 CGFloat ORKStepContainerLeftRightMarginForDefault = 12.0;
 
 CGFloat ORKStepContainerTopMarginForXSMax = 44.0;

@@ -290,7 +290,7 @@
                                                               toItem:self.stepTopContentImage ? self : self.safeAreaLayoutGuide
                                                            attribute:NSLayoutAttributeTop
                                                           multiplier:1.0
-                                                            constant:0.0];
+                                                            constant:-UIScreen.mainScreen.bounds.size.height / 15];
 }
 
 - (void)updateTableViewTopConstraint {

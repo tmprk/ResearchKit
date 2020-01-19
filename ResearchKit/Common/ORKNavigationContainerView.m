@@ -331,7 +331,11 @@ static const CGFloat shadowRadius = 1.0;
             [_parentStackView addArrangedSubview:subStack];
         }
     }
-    _appTintColor = [[UIApplication sharedApplication].delegate window].tintColor;
+    if (@available(iOS 13.0, *)) {
+        _appTintColor = [self window] .tintColor;
+    } else {
+        _appTintColor = [[UIApplication sharedApplication].delegate window].tintColor;
+    }
     [self setupContinueButton];
     [self setupCancelButton];
     [self setupSkipButton];
